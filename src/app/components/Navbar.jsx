@@ -39,7 +39,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed px-8 mx-auto top-0 left-0 right-0 z-10 border border-[#33353F] transition-all duration-300 
+      className={`fixed px-8 mx-auto top-0 left-0 right-0 z-40 border border-[#33353F] transition-all duration-300 
   ${scrolled ? "w-[75%] mt-5 rounded-[35px] bg-opacity-50 backdrop-blur-lg" : "w-full bg-opacity-100"} 
   bg-[#121212]`}
     >
