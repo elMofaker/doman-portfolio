@@ -41,7 +41,9 @@ const EmailSection = () => {
           </Link>
         </div>
       </div>
-      <div>
+
+
+      <div className="bg-[#9b9b9b0a] p-8 rounded-[10px] backdrop-blur-[26px] border border-black">
         {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">Message sent to WhatsApp successfully!</p>
         ) : (

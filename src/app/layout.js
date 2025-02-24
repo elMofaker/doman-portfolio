@@ -46,8 +46,10 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
         <meta name="theme-color" content="#121212" />
+        <link rel="icon" href="/images/avatar.svg" type="image/jpeg" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
 }
+

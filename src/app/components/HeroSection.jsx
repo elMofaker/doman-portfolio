@@ -13,9 +13,9 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+          className="col-span-8 pe-5 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-gray-100 mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-gray-100 mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
               Hello, I&apos;m{" "}
             </span>
@@ -55,24 +55,19 @@ const HeroSection = () => {
             </Link>
           </div>
         </motion.div>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="col-span-4 place-self-center mt-4 lg:mt-0"
-        >
-          <div className="rounded-full bg-gray-800 w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
+        <div className="col-span-4 place-self-center mt-10 lg-mt-4 lg:mt-0  ">
+          <div className="rounded-full shadow-[0_0_11px_8px_#1f2937] border-[.5px] border-white-100 bg-gray-800 w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/download.jpeg"
+              src="/images/avatar.svg"
               alt="hero image"
-              className="absolute rounded-[50%] transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}
             />
           </div>
-        </motion.div>
+        </div>
       </div>
-    </section>
+    </section >
   );
 };
 
