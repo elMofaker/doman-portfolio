@@ -46,13 +46,14 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="/public/cv.pdf.preview"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white mt-3"
             >
               <span className="block bg-gray-900 hover:bg-gray-800 rounded-full px-5 py-2">
                 Download CV
               </span>
             </Link>
+
           </div>
         </motion.div>
         <div className="col-span-4 place-self-center mt-10 lg-mt-4 lg:mt-0  ">
