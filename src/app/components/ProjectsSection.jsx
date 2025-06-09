@@ -10,7 +10,7 @@ const projectsData = [
     title: "Coffe Time",
     description: "Coffee Shop Template",
     image: "/images/projects/coffe.png",
-    tag: ["All", "JS"],
+    tag: ["All", "Landing"],
     previewUrl: "https://coffee-landing-page-fawn.vercel.app/",
   },
   {
@@ -18,7 +18,7 @@ const projectsData = [
     title: "Vionila Login",
     description: "Wi-Fi login page",
     image: "/images/projects/login-vaulena.png",
-    tag: ["All", "JS"],
+    tag: ["All", "Landing"],
     previewUrl: "https://vionila-sign-in.vercel.app/",
   },
   {
@@ -26,7 +26,7 @@ const projectsData = [
     title: "Syrian Gourmet",
     description: "Syrian Gourmet Landing Page",
     image: "/images/projects/sengafore.png",
-    tag: ["All", "JS"],
+    tag: ["All", "Landing"],
     previewUrl: "https://syrian-gourmet-landing-page.vercel.app/",
   },
   {
@@ -34,7 +34,7 @@ const projectsData = [
     title: "Masser / sa",
     description: "Landing page for a Saudi company",
     image: "/images/projects/masser.png",
-    tag: ["All", "JS"],
+    tag: ["All", "Landing"],
     previewUrl: "https://masser.vercel.app/",
   },
   {
@@ -42,7 +42,7 @@ const projectsData = [
     title: "Estadel",
     description: "Landing page for a Saudi company",
     image: "/images/projects/estadel.png",
-    tag: ["All", "JS"],
+    tag: ["All", "Landing"],
     previewUrl: "https://estadel-landing-page.vercel.app/",
   },
   {
@@ -50,7 +50,7 @@ const projectsData = [
     title: "Hatf",
     description: "Website for a Saudi programming company",
     image: "/images/projects/hatf.png",
-    tag: ["All", "JS"],
+    tag: ["All", "Landing"],
     previewUrl: "https://hatf-landing-page.vercel.app/",
   },
   {
@@ -58,10 +58,17 @@ const projectsData = [
     title: "TAJ",
     description: "Website for a Saudi programming company",
     image: "/images/projects/taj.png",
-    tag: ["All", "JS"],
+    tag: ["All", "Landing"],
     previewUrl: "https://taj-landing-page.vercel.app/",
   },
-
+  {
+    id: 8,
+    title: "motazmcqs",
+    description: "A Libyan website dedicated to generating questions for medical students",
+    image: "/images/projects/",
+    tag: ["All", "webApp"],
+    previewUrl: "https://motazmcqs.com/",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -95,18 +102,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="JS"
-          isSelected={tag === "JS"}
+          name="Landing"
+          isSelected={tag === "Landing"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="React"
-          isSelected={tag === "react"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Next"
-          isSelected={tag === "next"}
+          name="WebApp"
+          isSelected={tag === "WebApp"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
