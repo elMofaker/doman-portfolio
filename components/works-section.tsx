@@ -1,11 +1,26 @@
 "use client";
+import React, { useState } from "react";
 import { cn } from "@/lib/utils";
-import React from "react";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import { oswald } from "@/data/constants/fonts";
-import { works } from "@/data/index";
+import { works as allWorks } from "@/data/index";
+import { AnimatePresence, motion } from "framer-motion";
+
+const filters = [
+  { label: "All", value: "all" },
+  { label: "Landing Pages", value: "landing" },
+  { label: "Web Apps", value: "webapp" },
+  { label: "Templates", value: "template" },
+];
 
 export default function Works() {
+  const [selectedFilter, setSelectedFilter] = useState("all");
+
+  const filteredWorks =
+    selectedFilter === "all"
+      ? allWorks
+      : allWorks.filter((work) => work.type === selectedFilter);
+
   return (
     <section id="works" className="pb-32">
       <h1
@@ -18,17 +33,46 @@ export default function Works() {
         </span>
         <span>with their presentations</span>
       </h1>
-      <BentoGrid className="mx-auto md:auto-rows-[20rem] py-10">
-        {works.map((item, i) => (
-          <BentoGridItem
-            key={i}
-            title={item.title}
-            link={item.link}
-            description={item.description}
-            image={item.image}
-            className={cn("md:col-span-1")}
-          />
+
+      {/* Filter Buttons */}
+      <div className="flex justify-center gap-3 mt-8">
+        {filters.map((filter) => (
+          <button
+            key={filter.value}
+            onClick={() => setSelectedFilter(filter.value)}
+            className={cn(
+              "px-4 py-2 rounded-md text-sm font-medium transition-all",
+              selectedFilter === filter.value
+                ? "bg-yellow-500 text-white"
+                : "bg-gray-200 hover:bg-yellow-100 text-gray-800"
+            )}
+          >
+            {filter.label}
+          </button>
         ))}
+      </div>
+
+      {/* Cards Grid */}
+      <BentoGrid className="mx-auto md:auto-rows-[20rem] py-10">
+        <AnimatePresence mode="wait">
+          {filteredWorks.map((item) => (
+            <motion.div
+              key={item.title}
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -30 }}
+              transition={{ duration: 0.4, ease: "easeInOut" }}
+            >
+              <BentoGridItem
+                title={item.title}
+                link={item.link}
+                description={item.description}
+                image={item.image}
+                className={cn("md:col-span-1")}
+              />
+            </motion.div>
+          ))}
+        </AnimatePresence>
       </BentoGrid>
     </section>
   );

@@ -3,7 +3,9 @@ import { ubuntu } from "@/data/constants/fonts";
 import profileImg from "@/public/profile.jpg";
 import { TypewriterEffect } from "./ui/typewritet-effect";
 import { color } from "framer-motion";
-import { FlipWords } from "./ui/flip-words";
+// import { TypewriterEffect } from "./ui/typewritet-effect";
+import { ContainerTextFlip } from "./ui/ContainerTextFlip";
+
 
 export default function HeroSection() {
   return (
@@ -18,17 +20,18 @@ export default function HeroSection() {
         <span className="my-2">From Design to Development,</span>
         <span>
           <span className="text-yellow-500 my-2">I Craft Exceptional</span> <br />
-          <FlipWords
-            words={[
-              "Web Experiences",
-              "Impactful Experiences",
-              "Scalable Solutions",
-              "Interactive Experiences",
-              "User-Centric Solutions",
-            ]}
-            className="dark:text-yellow-700 my-2 text-amber-600 text-center h-[72px] sm:h-auto"
-          />
-          <span className="hidden md:inline">.</span>
+
+<ContainerTextFlip
+  words={[
+    "Web Experiences",
+    "Impactful Experiences",
+    "Scalable Solutions",
+    "Interactive Experiences",
+    "User-Centric Solutions",
+  ]}
+  className="text-xl md:text-2xl dark:text-yellow-700 my-2 text-amber-600 text-center h-[40px] sm:h-auto w-auto"
+/>
+
         </span>
       </h1>
       <p className="lg:text-md dark:text-slate-300">
