@@ -1,30 +1,76 @@
-# Portfolio Website
+<div align="center">
+  <br />
+    <a href="https://glorious-portfolio.vercel.app/" target="_blank">
+      <img src="public/images/works/work1.png" alt="Project Banner">
+    </a>
+  <br />
 
-This is a portfolio website built with Next.js and Tailwind CSS. It showcases your skills, projects, and achievements in an elegant and responsive design.
+  <div>
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
+    <img src="https://img.shields.io/badge/-Magic_UI-black?style=for-the-badge&logoColor=white&logo=magicui&color=8A2BE2" alt="magicui" />
+    <img src="https://img.shields.io/badge/-Aceternity_UI-black?style=for-the-badge&logoColor=white&logo=aceternityui&color=FF4500" alt="aceternityui" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
 
-## Installation
+  <h3 align="center">A Modern Next.js Portfolio</h3>
 
-1. Clone the repository: `git clone https://github.com/judygab/nextjs-portfolio.git`
-2. Navigate to the project directory: `cd portfolio-website`
-3. Install the dependencies: `npm install`
+   <p align="center">
+     A portfolio to establish your online presence as a developer and attract potential customers.
+    </p>
+</div>
 
-## Usage
+## 📋 <a name="table">Table of Contents</a>
 
-1. Start the development server: `npm run dev`
-2. Open your browser and visit `http://localhost:3000` to view the website.
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🤸 [Quick Start](#quick-start)
 
-## Dependencies
+## <a name="introduction">🤖 Introduction</a>
 
-The following dependencies are required for this project:
+Built with Next.js to manage the user interface, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique way that creates a lasting impact.
 
-- Next.js: A React framework for server-side rendering and static site generation.
-- Tailwind CSS: A highly customizable CSS framework.
-- React: A JavaScript library for building user interfaces.
-- React Icons: A collection of popular icons for React projects.
-- TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
-- Resend: Resend is the email API for developers.
+If you need help or run into bugs, drop me a line and let's talk. [Théo Balick](mailto:balickmethens@gmail.com)
 
-## License
+WhatsApp: [+243 893 666 998](https://wa.me/+33620505050)
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the code as per the terms of the license.
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
+- Next.js
+- Framer Motion
+- Tailwind CSS
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/Balick/glorious-portfolio.git
+cd glorious-portfolio
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Running the Project**
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
