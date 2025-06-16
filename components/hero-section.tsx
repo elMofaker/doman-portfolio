@@ -15,9 +15,9 @@ export default function HeroSection() {
       <h1
         className={`${ubuntu.className} font-bold text-3xl md:text-5xl flex flex-col`}
       >
-        <span>From Design to Development,</span>
+        <span className="my-2">From Design to Development,</span>
         <span>
-          <span className="text-yellow-500">I Craft Exceptional</span> <br />
+          <span className="text-yellow-500 my-2">I Craft Exceptional</span> <br />
           <FlipWords
             words={[
               "Web Experiences",
@@ -26,7 +26,7 @@ export default function HeroSection() {
               "Interactive Experiences",
               "User-Centric Solutions",
             ]}
-            className="dark:text-yellow-700 text-amber-600 text-center h-[72px] sm:h-auto"
+            className="dark:text-yellow-700 my-2 text-amber-600 text-center h-[72px] sm:h-auto"
           />
           <span className="hidden md:inline">.</span>
         </span>
