@@ -59,48 +59,84 @@ export const services = [
   },
 ];
 
+
 export const works = [
   {
-    title: "Glorious Portfolio",
+    title: "Coffe Time",
     type: "landing",
-    description: "A simple and beautiful portfolio to present Théo Balick's work and career.",
-    image: "/images/works/work1.png",
-    link: "/"
-  },
-  {
-    title: "Esis Social Website",
-    type: "webapp",
-    description: "Lorem ipsum dolor sit amet...",
-    image: "/images/works/work7.png",
-    link: "/"
-  },
-  {
-    title: "Adrian's Portfolio",
-    type: "landing",
-    description: "Modern & Minimal JS Mastery Portfolio",
-    image: "/images/works/work4.png",
-    link: "/"
-  },
-  {
-    title: "Iceberg Investment",
-    type: "webapp",
-    description: "Your partner for integrating IT solutions...",
-    image: "/images/works/work3.png",
-    link: "/"
-  },
-  {
-    title: "Venissa's Portfolio",
-    type: "template",
-    description: "Lorem ipsum dolor sit amet...",
-    image: "/images/works/work6.png",
-    link: "/"
-  },
-  {
-    title: "Tailus UI React",
-    type: "template",
-    description: "Highly customizable components...",
+    description: "Coffee Shop Template",
     image: "/images/works/work5.png",
-    link: "/"
+    link: "https://coffee-landing-page-fawn.vercel.app/",
+  },
+  {
+    title: "Syrian Gourmet",
+    type: "landing",
+    description: "Syrian Gourmet Landing Page",
+    image: "/images/works/work1.png",
+    link: "https://syrian-gourmet-landing-page.vercel.app/",
+  },
+  {
+    title: "Masser / sa",
+    type: "landing",
+    description: "Landing page for a Saudi company",
+    image: "/images/works/work4.png",
+    link: "https://masser.vercel.app/",
+  },
+  {
+    title: "Estadel",
+    type: "landing",
+    description: "Landing page for a Saudi company",
+    image: "/images/works/work7.png",
+    link: "https://estadel-landing-page.vercel.app/",
+  },
+  {
+    title: "Hatf",
+    type: "landing",
+    description: "Website for a Saudi programming company",
+    image: "/images/works/work6.png",
+    link: "https://hatf-landing-page.vercel.app/",
+  },
+  {
+    title: "TAJ",
+    type: "landing",
+    description: "Website for a Saudi programming company",
+    image: "/images/works/work3.png",
+    link: "https://taj-landing-page.vercel.app/",
+  },
+  {
+    title: "motazmcqs",
+    type: "webapp",
+    description: "A Libyan website dedicated to generating questions for medical students",
+    image: "/images/works/work8.png",
+    link: "https://motazmcqs.com/",
+  },
+  {
+    title: "alandlyisalib",
+    type: "webapp",
+    description: "An online library offering a wide range of academic and cultural resources for readers and researchers.",
+    image: "/images/works/work9.png",
+    link: "https://lib-sepia.vercel.app/",
+  },
+  {
+    title: "Business card pro",
+    type: "template",
+    description: "Modern and contemporary business card containing your personal information",
+    image: "/images/works/work10.png",
+    link: "https://abdulla-hamdy.vercel.app/",
+  },
+  {
+    title: "Business card",
+    type: "template",
+    description: "Modern and contemporary business card containing your personal information",
+    image: "/images/works/work11.png",
+    link: "https://moustafa-elsafty.vercel.app/",
+  },
+  {
+    title: "Vionila Login",
+    type: "template",
+    description: "Wi-Fi login page",
+    image: "/images/works/work2.png",
+    link: "https://vionila-sign-in.vercel.app/",
   },
 ];
 
@@ -119,12 +155,12 @@ export const socialMedia = [
   {
     id: 3,
     img: <FaFacebookF />,
-    href: "https://www.facebook.com/yuossef.ahmed.786312", 
+    href: "https://www.facebook.com/yuossef.ahmed.786312",
   },
   {
     id: 4,
     img: <FaInstagram />,
-    href: "https://www.instagram.com/y.u.o.s.s.e.f_e.l_f.a.d.a.l.y/", 
+    href: "https://www.instagram.com/y.u.o.s.s.e.f_e.l_f.a.d.a.l.y/",
   },
   {
     id: 5,
