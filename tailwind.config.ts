@@ -56,6 +56,10 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+
+        // ✅ أضف لونك هنا
+        blue: "#0063b1",
+
         cool: {
           black: "#111",
         },
