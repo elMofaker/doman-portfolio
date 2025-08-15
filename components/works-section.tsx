@@ -8,9 +8,9 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const filters = [
   { label: "All", value: "all" },
-  { label: "Landing Pages", value: "landing" },
-  { label: "Web Apps", value: "webapp" },
-  { label: "Templates", value: "template" },
+  { label: "Hatf", value: "hatf" },
+  { label: "Algorithms", value: "algorithms" },
+  { label: "Freelance", value: "freelance" },
 ];
 
 export default function Works() {
