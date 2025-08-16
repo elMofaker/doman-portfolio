@@ -9,7 +9,7 @@ import { AnimatePresence, motion } from "framer-motion";
 const filters = [
   { label: "All", value: "all" },
   { label: "Hatf", value: "hatf" },
-  { label: "Algorithms", value: "algorithms" },
+  { label: "algorithm", value: "algorithms" },
   { label: "Freelance", value: "freelance" },
 ];
 
