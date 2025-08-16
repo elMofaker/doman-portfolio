@@ -146,6 +146,20 @@ export const works = [
     image: "/images/works/work16.png",
     link: "https://jolly-sherbet-2e4838.netlify.app/",
   },
+  {
+    title: "Panssee",
+    type: "scope-code",
+    description: "Online store for selling cosmetics",
+    image: "/images/works/work17.png",
+    link: "https://panssee.com/",
+  },
+  {
+    title: "Geniemart",
+    type: "scope-code",
+    description: "Online furniture store",
+    image: "/images/works/work18.png",
+    link: "https://geniemart.online/",
+  },
 
 ];
 
