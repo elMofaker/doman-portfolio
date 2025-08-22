@@ -4,7 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { inter } from "@/data/constants/fonts";
 import Footer from "@/components/footer";
-import { Analytics } from "@vercel/analytics/react";
+// import { Analytics } from "@vercel/analytics/react";
 
 const SITE_URL = "https://youssef-el-fadaly.vercel.app";
 
@@ -123,7 +123,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </ThemeProvider>
-        <Analytics />
+        {/* <Analytics /> */}
       </body>
     </html>
   );
