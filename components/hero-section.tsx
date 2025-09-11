@@ -19,7 +19,7 @@ export default function HeroSection() {
       >
         <span className="my-2">From Design to Development,</span>
         <span>
-          <span className="blue my-2">I Craft Exceptional</span> <br />
+          <span className="dark:text-yellow-600 my-2">I Craft Exceptional</span> <br />
 
           <ContainerTextFlip
             words={[
@@ -29,7 +29,7 @@ export default function HeroSection() {
               "Interactive Experiences",
               "User-Centric Solutions",
             ]}
-            className="text-xl md:text-2xl dark:bg-blue my-2 blue text-center h-[40px] sm:h-auto w-auto"
+            className="text-xl md:text-2xl dark:bg-yellow-500 my-2  dark:text-yellow-500 text-yellow-500 text-center h-[40px] sm:h-auto w-auto"
           />
 
         </span>

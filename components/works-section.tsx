@@ -36,7 +36,8 @@ export default function Works() {
       </h1>
 
       {/* Filter Buttons */}
-      <div className="flex justify-center gap-3 mt-8">
+
+      <div className="flex sm:justify-start md:justify-center lg:justify-center gap-3 mt-8 p-2 pb-3" style={{ overflowX: "auto" }}>
         {filters.map((filter) => (
           <button
             key={filter.value}
@@ -44,7 +45,7 @@ export default function Works() {
             className={cn(
               "px-4 py-2 rounded-md text-sm font-medium transition-all",
               selectedFilter === filter.value
-                ? "bg-yellow-500 text-white"
+                ? "bg-yellow-500  text-white"
                 : "bg-gray-200 hover:bg-yellow-100 text-gray-800"
             )}
           >
@@ -52,6 +53,7 @@ export default function Works() {
           </button>
         ))}
       </div>
+
 
       {/* Cards Grid */}
       <BentoGrid className="mx-auto md:auto-rows-[20rem] py-10">
