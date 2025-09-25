@@ -11,7 +11,6 @@ const filters = [
   { label: "algorithm", value: "algorithms" },
   { label: "Hatf", value: "hatf" },
   { label: "Scope Code", value: "scope-code" },
-  { label: "Freelance", value: "freelance" },
 ];
 
 export default function Works() {
@@ -37,7 +36,7 @@ export default function Works() {
 
       {/* Filter Buttons */}
 
-      <div className="flex sm:justify-start md:justify-center lg:justify-center gap-3 mt-8 p-2 pb-3" style={{ overflowX: "auto" }}>
+      <div className="flex justify-center gap-3 mt-8 p-2 pb-3">
         {filters.map((filter) => (
           <button
             key={filter.value}
@@ -45,8 +44,9 @@ export default function Works() {
             className={cn(
               "px-4 py-2 rounded-md text-sm font-medium transition-all",
               selectedFilter === filter.value
-                ? "bg-yellow-500  text-white"
-                : "bg-gray-200 hover:bg-yellow-100 text-gray-800"
+  ? " text-amber-500"
+  : "bg-gray-200 hover:bg-amber-500 text-black"
+
             )}
           >
             {filter.label}
