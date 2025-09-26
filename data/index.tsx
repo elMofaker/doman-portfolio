@@ -244,7 +244,7 @@ export const works = [
     image: "/images/works/work30.png",
     link: "https://bruneiinternationaluniversity.uk/",
   },
-    {
+  {
     title: "La Vida Hotel",
     type: "scope-code",
     description: "La Vida Hotel is a luxurious hotel offering a range of amenities and services.",
