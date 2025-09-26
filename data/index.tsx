@@ -188,41 +188,69 @@ export const works = [
     image: "/images/works/work22.png",
     link: "https://main--cyber-712.netlify.app/",
   },
-    {
+  {
     title: "Sky Food",
     type: "scope-code",
     description: "Food Industries Company",
     image: "/images/works/work23.png",
     link: "https://sky-food.netlify.app/",
   },
-    {
+  {
     title: "Simple Life",
     type: "scope-code",
     description: "Film production company",
     image: "/images/works/work24.png",
     link: "https://nimble-pegasus-a94d14.netlify.app/",
   },
-    {
+  {
     title: "Greenmind",
     type: "scope-code",
     description: "Online store for selling everything green",
     image: "/images/works/work25.png",
     link: "https://greenmind-pearl.vercel.app/",
   },
-    {
+  {
     title: "Prosperix",
     type: "scope-code",
     description: "Investment company",
     image: "/images/works/work26.png",
     link: "https://prosperix-beta.vercel.app/",
   },
-  //   {
-  //   title: "",
-  //   type: "scope-code",
-  //   description: "",
-  //   image: "/images/works/work.png",
-  //   link: "",
-  // },
+  {
+    title: "Flex Living",
+    type: "scope-code",
+    description: "Real estate company",
+    image: "/images/works/work27.png",
+    link: "https://flex-living-ochre.vercel.app/",
+  },
+  {
+    title: "BATU",
+    type: "scope-code",
+    description: "BATU University website",
+    image: "/images/works/work28.png",
+    link: "https://batu-university.vercel.app/",
+  },
+  {
+    title: "AHFAD ALMOUKHTAR OIL",
+    type: "scope-code",
+    description: "Oil company",
+    image: "/images/works/work29.png",
+    link: "http://almoukhtargrandsons.com/",
+  },
+  {
+    title: "B I U",
+    type: "scope-code",
+    description: "B I U University",
+    image: "/images/works/work30.png",
+    link: "https://bruneiinternationaluniversity.uk/",
+  },
+    {
+    title: "La Vida Hotel",
+    type: "scope-code",
+    description: "La Vida Hotel is a luxurious hotel offering a range of amenities and services.",
+    image: "/images/works/work31.png",
+    link: "https://la-vida-hotel.vercel.app/",
+  },
 
 ];
 

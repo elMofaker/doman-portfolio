@@ -8,9 +8,9 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const filters = [
   { label: "All", value: "all" },
+  { label: "Scope Code", value: "scope-code" },
   { label: "algorithm", value: "algorithms" },
   { label: "Hatf", value: "hatf" },
-  { label: "Scope Code", value: "scope-code" },
 ];
 
 export default function Works() {
